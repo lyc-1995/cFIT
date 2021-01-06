@@ -13,7 +13,8 @@ CFITIntegrate(
   nrep = 1,
   init = NULL,
   verbose = T,
-  seed = 0
+  seed = 0,
+  n.cores = parallel::detectCores() - 4
 )
 }
 \arguments{
